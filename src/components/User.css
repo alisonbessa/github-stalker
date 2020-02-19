@@ -1,0 +1,22 @@
+img{
+    border-radius: 10px;
+    box-shadow: 0px 0px 3px rgba(245, 245, 245, 0.514);
+}
+.user{
+    background-color: rgb(65, 65, 65);
+    color: whitesmoke;
+    height: max-content;
+
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        padding: 20px;
+
+}
+
+.content{
+    padding: 0 15px
+}

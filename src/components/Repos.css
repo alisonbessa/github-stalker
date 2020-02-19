@@ -1,0 +1,65 @@
+a{
+    color: rgb(61, 61, 61)
+}
+
+a:hover{
+    color: rgb(50, 50, 50);
+}
+
+body{
+    background-color: rgb(240, 240, 240);
+    color: rgb(61, 61, 61)
+}
+
+h2{
+    margin: 0;
+}
+
+p{
+    margin: 0;
+}
+
+.flex{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    padding: 20px;
+}
+
+.repos{
+    background-color: rgb(200, 200, 200);
+    width: 350px;
+    height: 200px;
+    padding: 1rem;
+    border-radius: 6px;
+    box-shadow: 0px 0px 2px rgb(50, 50, 50);
+    margin: 15px;
+    text-align: center;
+    transform-style: preserve-3d;
+    transition: all 0.5s ease;    
+}
+
+.repos:hover{
+    background-color: rgb(230, 230, 230);
+    box-shadow: 0px 0px 5px rgb(104, 104, 104);
+}
+
+.repos:active{
+    transform:rotateY(180deg);
+    background-color: rgb(65, 65, 65);
+}
+
+.front{
+    backface-visibility: hidden;
+    margin-top: 15%;
+}
+
+.back{
+    backface-visibility: hidden;
+    color: rgb(250, 250, 250);
+    transform: rotateY(180deg);
+    margin-top: -20%;
+}
